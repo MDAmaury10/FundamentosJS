@@ -14,7 +14,4 @@ const PI = 3.1416;
 console.log(PI);
 console.log(typeof PI);
 // PI=3.1415;//Error
-console.log(sumar(10,20));
-const sumar(a,b){
-    return a+b
-}
+
