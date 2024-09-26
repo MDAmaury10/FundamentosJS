@@ -92,6 +92,26 @@ console.log(youngers2);
 *crear uno nuevo con valores entre 3 y 8, filter
 */
 
+//elemntos del 1 al 10 y sus cuadrados
 const arrays = [1,2,3,4,5,6,7,8,9,10];
 const cuadrade = arrays.map(( array=> array**2));
 console.log(cuadrade);
+
+//array con los cubos
+const cubes = arrays.map((array => array**3));
+console.log(cubes);
+
+//array con las mitades 
+const halfs = arrays.map((array => array/2));
+console.log(halfs);
+
+//uno con los pares
+const pairs = arrays.filter((array=> array%2 == 0));
+console.log(pairs) 
+
+//uno con los impares
+const unpairs = arrays.filter((array=> array%2 != 0));
+console.log(unpairs)
+
+const beetwens = arrays.filter((array => array >=3 && array<=8));
+console.log(beetwens);
